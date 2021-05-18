@@ -15,7 +15,7 @@ public class OrderDao {
                 new Order(2, "Unicorn saddle", 1, 30000),
                 new Order(1, "Unicorn horseshoes 4 pieces", 4, 2000),
                 new Order(3, "Unicorn blinkers 2 pieces", 1, 150000),
-                new Order(4, "Unicorn winter jacket", 1, 1799))
+                new Order(4, "Unicorn winter jacket", 1, 2000))
                 .collect(Collectors.toList());
     }
 }
